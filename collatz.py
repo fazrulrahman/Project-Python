@@ -1,8 +1,8 @@
 n = 100
 temp = 0
-count = 0
-solution = 0
-solutioncount = 0
+count = 0	
+solution = 0	# for storing which number has largest sequence
+solutioncount = 0	# length of the sequence
 for x in xrange(2,n):
 	temp = x
 	while temp != 1:
