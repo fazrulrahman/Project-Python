@@ -20,7 +20,6 @@ for x in range(dash,-2,-2):
 
 dash = 2
 for x in range(dash,(n * 2) ,2):
-	# print (("-"*x) + alphabet[n-1] )
 
 	str1 = ("-")*x
 	str2 = ''
