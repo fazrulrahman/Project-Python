@@ -6,5 +6,7 @@ n = [6,1,3,3,3,6,6]
 
 n = sorted(n)
 
+for i in range(0,len(n)):
+	
 
 print n
