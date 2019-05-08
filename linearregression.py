@@ -1,9 +1,6 @@
 import sklearn.linear_model as lm
 import csv
 
-import warnings
-warnings.filterwarnings(action="ignore", module="sklearn", message="internal gelsd")
-
 inputX = []
 outputY = []
 textInput = []
@@ -24,4 +21,4 @@ with open("test.csv",'rb') as csvtest:
 	for row in reader:
 		textInput.append([float(row[0])])
 
-print lr.predict(textInput)
+print(lr.predict(textInput))
